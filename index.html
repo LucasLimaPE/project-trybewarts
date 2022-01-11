@@ -11,27 +11,33 @@
 <body>
     <header class="header">
        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logomarca">
-    <h1 id="trybewarts-header-title">Trybewarts</h1> 
-    <form action="" class="trybewarts-login" id="">
-        <input id="email" type="email" name="email" placeholder="Email" value="">
-        <input  id="senha" type="password" name="password" placeholder="Senha" value="">
-        <button id='button' type="button">Entrar</button>;
-    </form>
-</header>
-<div id="main-container">
-<main>
-    <div id="form-container">
-    <form action="" id="evaluation-form">
-        <input type="text" id="input-name" placeholder="Nome">
-        <input type="text" id="input-lastname" placeholder="Sobrenome">
-        <input type="email" id="input-email" placeholder="Email">
-    </form>
+       <h1 id="trybewarts-header-title">Trybewarts</h1> 
+        <form action="" class="trybewarts-login" id="">
+            <input id="email" type="email" name="email" placeholder="Email" value="">
+            <input  id="senha" type="password" name="password" placeholder="Senha" value="">
+            <button id='button' type="button">Entrar</button>;
+        </form>
+    </header>
+    <div id="main-container">
+    <main>
+        <div id="form-container">
+        <form action="" id="evaluation-form">
+            <label for="input-name">Nome:</label><input type="text" id="input-name" placeholder="Nome">
+            <input type="text" id="input-lastname" placeholder="Sobrenome">
+            <input type="email" id="input-email" placeholder="Email">
+            <select name="" id="house">
+                <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
+                <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
+                <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+        </form>
+        </div>
+        <div id="img-container">
+            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
+        </div>
+    </main>
     </div>
-    <div id="img-container">
-        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
-    </div>
-</main>
-</div>
 <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
