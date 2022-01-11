@@ -26,3 +26,12 @@ body{
 #trybewarts-header-title{
   display: flex;
 }
+
+#main-container {
+  display: flex;
+}
+
+#form-container {
+  display: flex;
+  width: 675px; 
+}
