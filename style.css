@@ -27,11 +27,12 @@ body{
   display: flex;
 }
 
-#main-container {
+main {
   display: flex;
 }
 
-#form-container {
+#evaluation-form {
   display: flex;
   width: 675px; 
 }
+
