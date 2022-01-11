@@ -6,7 +6,7 @@ function mensagem() {
     if (email.value == 'tryber@teste.com' && senha.value == '123456'){
         window.alert('Olá, Tryber!');
     } else {
-        window.alert('Email ou senha inválidos');
+        window.alert('Email ou senha inválidos.');
     }
 };
 
