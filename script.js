@@ -4,9 +4,9 @@ const button = document.querySelector('#button');
 
 button.addEventListener('click', () => {
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
-    window.alert('Olá, Tryber!');
+    alert('Olá, Tryber!');
   } else {
-    window.alert('Email ou senha inválidos.');
+    alert('Email ou senha inválidos.');
   }
 });
 
@@ -19,4 +19,37 @@ checkbox.addEventListener('click', () => {
   } else if (checkbox.checked) {
     submit.disabled = false;
   }
+});
+
+const evaluationForm = document.querySelector('#evaluation-form');
+const inputName = document.querySelector('#input-name');
+const inputLastName = document.querySelector('#input-lastname');
+const inputEmail = document.querySelector('#input-email');
+const inputHouse = document.querySelector('#house');
+const inputTextArea = document.querySelector('#textarea');
+
+function newValuesForm() {
+  const inputHouseSelected = inputHouse.options[inputHouse.selectedIndex].value;
+  const inputFamily = document.querySelector('input[name="family"]:checked').value;
+  const inputRate = document.querySelector('input[name="rate"]:checked').value;
+  const subject = document.querySelectorAll('input[class="subject"]:checked');
+  const valuesSubject = [];
+  for (let i = 0; i < subject.length; i += 1) {
+    valuesSubject.push(` ${subject[i].value}`);
+  }
+  evaluationForm.innerHTML = '';
+  const nome = document.createElement('p');
+  evaluationForm.appendChild(nome);
+  nome.innerText = `Nome: ${inputName.value} ${inputLastName.value}
+  Email: ${inputEmail.value}
+  Casa: ${inputHouseSelected}
+  Família: ${inputFamily}
+  Matérias:${valuesSubject}
+  Avaliação: ${inputRate}
+  Observações: ${inputTextArea.value}`;
+}
+
+submit.addEventListener('click', (event) => {
+  event.preventDefault();
+  newValuesForm();
 });
