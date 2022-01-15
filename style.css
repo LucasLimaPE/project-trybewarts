@@ -68,8 +68,9 @@ body {
 
 .trybewarts-header-logo {
   padding: 10px;
-  align-items: center;
-  width: 100px;
+  justify-content:left ;
+  height: 500px;
+  z-index: auto;
 }
 
 .trybewarts-login {
