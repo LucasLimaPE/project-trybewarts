@@ -56,7 +56,13 @@ submit.addEventListener('click', (event) => {
   newValuesForm();
 });
 
-function counter2 () {
+/*
+Esta função (counter2) foi feita por Lucas Lima, com o auxilio do colega Guilherme azevedo.
+Foram feitas pesquisas em:
+https://developer.mozilla.org/pt-BR/docs/Web/API/Document/keyup_event
+https://developer.mozilla.org/pt-BR/docs/Web/API/Document/keypress_event
+*/
+function counter2() {
   const TextAreaLength = textArea.value.length;
   const maxlength = 500;
   counter.innerHTML = maxlength - TextAreaLength;
