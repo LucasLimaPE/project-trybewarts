@@ -1,6 +1,8 @@
 const email = document.querySelector('#email');
 const senha = document.querySelector('#senha');
 const button = document.querySelector('#button');
+const counter = document.querySelector('#counter')
+const textArea = document.querySelector('#textarea')
 
 button.addEventListener('click', () => {
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
@@ -53,3 +55,12 @@ submit.addEventListener('click', (event) => {
   event.preventDefault();
   newValuesForm();
 });
+
+function counter2 () {
+  const TextAreaLength = textArea.value.length;
+  const maxlength = 500;
+  counter.innerHTML = maxlength - TextAreaLength;
+}
+
+textArea.addEventListener('keypress', counter2);
+textArea.addEventListener('keyup', counter2);
