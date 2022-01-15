@@ -1,8 +1,7 @@
 const email = document.querySelector('#email');
 const senha = document.querySelector('#senha');
 const button = document.querySelector('#button');
-const counter = document.querySelector('#counter')
-const textArea = document.querySelector('#textarea')
+const textArea = document.querySelector('#textarea');
 
 button.addEventListener('click', () => {
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
@@ -58,11 +57,14 @@ submit.addEventListener('click', (event) => {
 
 /*
 Esta função (counter2) foi feita por Lucas Lima, com o auxilio do colega Guilherme azevedo.
+
 Foram feitas pesquisas em:
+
 https://developer.mozilla.org/pt-BR/docs/Web/API/Document/keyup_event
 https://developer.mozilla.org/pt-BR/docs/Web/API/Document/keypress_event
 */
 function counter2() {
+  const counter = document.querySelector('#counter');
   const TextAreaLength = textArea.value.length;
   const maxlength = 500;
   counter.innerHTML = maxlength - TextAreaLength;
