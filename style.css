@@ -66,10 +66,10 @@ body {
 }
 
 .trybewarts-header-logo {
-  padding: 10px;
-  justify-content:left ;
+  padding: 15px;
+  align-items: center;
   height: 500px;
-  z-index: auto;
+  display: flex;
 }
 
 .trybewarts-login {
@@ -106,6 +106,77 @@ letter-spacing: 0.8px;
   flex-direction: column;
 }
 
+#input-name{
+  height: 25px;
+  border-radius: 4px black;
+  padding-left: 4px;
+  font-size: 1rem;
+}
+
+.name{
+  font-size: 20px;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+#input-lastname{
+  height: 25px;
+  border-radius: 4px black;
+  padding-left: 4px;
+  font-size: 1rem;
+}
+
+.sobrenome{
+  font-size: 20px;
+  margin-right: 5px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+#input-email{
+  height: 25px;
+  border-radius: 4px black;
+  padding-left: 4px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.email{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 4px;
+}
+
+#input-lastname{
+  height: 25px;
+  border-radius: 4px black;
+  padding-left: 4px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#house{
+  height: 25px;
+  border-radius: 4px black;
+  padding-left: 4px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.casa{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-right: 4px;
+}
+
+ #radio-box{
+   margin-top: 5px;
+   margin-right: 6px;
+ }
+
+
 #trybewarts-forms-logo {
   height: 500px;
   margin-left: 70px;
@@ -114,12 +185,18 @@ letter-spacing: 0.8px;
 
 #formulario{
 margin-top: 70px;
-margin-left: 40px;
+margin-left: 75px;
 font-size:xx-large;
 font-family: 'Mochiy Pop P One', sans-serif;
 letter-spacing: 3px;
 color: rgb(54, 54, 54);
 display: flex;
+cursor:pointer;
+transition: 0.5s;
+}
+
+#formulario:hover{
+  opacity: 0.7;
 }
 
 
