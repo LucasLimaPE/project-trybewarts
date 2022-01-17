@@ -4,9 +4,9 @@
 }
 
 body {
-  display:flex;
-  flex-direction:column;
-  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  background-color: ghostwhite;
 }
 
 .header {
@@ -23,8 +23,7 @@ body {
   margin: auto;
   margin-right: 7px;
   border-radius: 7px;
-  font-family: 'Mochiy Pop P One', sans-serif;
-  font-family: 'Mulish', sans-serif; 
+  font-family: Mochiy Pop P One, sans-serif;
   padding-left: 10px;
   font-size: medium;
   font-weight: 600;
@@ -35,34 +34,32 @@ body {
   width: 150px;
   margin: auto;
   border-radius: 8px;
-  font-family: 'Mochiy Pop P One', sans-serif;
-  font-family: 'Mulish', sans-serif; 
+  font-family: Mochiy Pop P One, sans-serif;
   padding-left: 10px;
   font-size: medium;
   font-weight: 600;
 }
 
-#button{
+#button {
   height: 42px;
   width: 150px;
   margin: auto;
   margin-right: 5px;
   margin-left: 8px;
   border-radius: 7px;
-  background-color: #5359be;
-  font-family: 'Mochiy Pop P One', sans-serif;
-  font-family: 'Mulish', sans-serif; 
+  background-color: rgb(83, 89, 190);
+  font-family: Mochiy Pop P One, sans-serif;
   font-weight: 700;
   font-size: medium;
   outline: none;
   border-color: none;
-  color: #f8f8ff;
+  color: ghostwhite;
   cursor: pointer;
   transition: 0.8s;
 }
 
 #button:hover {
-  background-color: #3a3fa1;
+  background-color: rgb(50, 54, 141);
 }
 
 .trybewarts-header-logo {
@@ -78,15 +75,15 @@ body {
 
 #trybewarts-header-title {
   display: flex;
-  font-family: 'Mochiy Pop P One', sans-serif;
-  color: #f8f8ff;
+  font-family: Mochiy Pop P One, sans-serif;
+  color: ghostwhite;
   margin: auto;
   font-weight: 500;
   transition: 0.8s;
 }
 
-#trybewarts-header-title:hover{
-  color: #f0f0f0;
+#trybewarts-header-title:hover {
+  color: ghostwhite;
   opacity: 0.7;
 }
 
@@ -96,8 +93,8 @@ main {
 }
 
 #main-container {
-font-family: 'Roboto', sans-serif; 
-letter-spacing: 0.8px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.8px;
 }
 
 #evaluation-form {
@@ -106,34 +103,27 @@ letter-spacing: 0.8px;
   flex-direction: column;
 }
 
-#input-name{
+#input-name {
   height: 25px;
   border-radius: 4px black;
   padding-left: 4px;
   font-size: 1rem;
 }
 
-.name{
+.name {
   font-size: 20px;
   margin-right: 5px;
   font-weight: 600;
 }
 
-#input-lastname{
-  height: 25px;
-  border-radius: 4px black;
-  padding-left: 4px;
-  font-size: 1rem;
-}
-
-.sobrenome{
+.sobrenome {
   font-size: 20px;
   margin-right: 5px;
   font-weight: 600;
   margin-left: 15px;
 }
 
-#input-email{
+#input-email {
   height: 25px;
   border-radius: 4px black;
   padding-left: 4px;
@@ -141,14 +131,14 @@ letter-spacing: 0.8px;
   margin-top: 10px;
 }
 
-.email{
+.email {
   font-size: 20px;
   font-weight: 600;
   margin-left: 5px;
   margin-right: 4px;
 }
 
-#input-lastname{
+#input-lastname {
   height: 25px;
   border-radius: 4px black;
   padding-left: 4px;
@@ -156,7 +146,7 @@ letter-spacing: 0.8px;
   margin-top: 10px;
 }
 
-#house{
+#house {
   height: 25px;
   border-radius: 4px black;
   padding-left: 4px;
@@ -164,17 +154,17 @@ letter-spacing: 0.8px;
   margin-top: 10px;
 }
 
-.casa{
+.casa {
   font-size: 20px;
   font-weight: 600;
   margin-left: 15px;
   margin-right: 4px;
 }
 
- #radio-box{
-   margin-top: 5px;
-   margin-right: 6px;
- }
+#radio-box {
+  margin-top: 5px;
+  margin-right: 6px;
+}
 
 
 #trybewarts-forms-logo {
@@ -183,19 +173,19 @@ letter-spacing: 0.8px;
   margin-top: -70px;
 }
 
-#formulario{
-margin-top: 70px;
-margin-left: 75px;
-font-size:xx-large;
-font-family: 'Mochiy Pop P One', sans-serif;
-letter-spacing: 3px;
-color: rgb(54, 54, 54);
-display: flex;
-cursor:pointer;
-transition: 0.5s;
+#formulario {
+  margin-top: 70px;
+  margin-left: 75px;
+  font-size: xx-large;
+  font-family: Mochiy Pop P One, sans-serif;
+  letter-spacing: 3px;
+  color: rgb(54, 54, 54);
+  display: flex;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-#formulario:hover{
+#formulario:hover {
   opacity: 0.7;
 }
 
@@ -205,8 +195,7 @@ transition: 0.5s;
   margin: 50px 10px;
   height: 400px;
   margin-left: 30px;
-  font-family: 'Mochiy Pop P One', sans-serif;
-  font-family: 'Mulish', sans-serif;
+  font-family: Mochiy Pop P One, sans-serif;
   font-weight: 500;
 }
 
@@ -237,44 +226,41 @@ section {
   margin-left: 50px;
 }
 
-#submit-btn{
+#submit-btn {
   margin-top: 15px;
-  background-color: #5359be;
+  background-color: rgb(83, 89, 190);
   height: 50px;
   border-radius: 8px;
-  color: #f8f8ff;
-  font-family: 'Mochiy Pop P One', sans-serif;
-font-family: 'Mulish', sans-serif; 
-font-size: 35px;
-font-weight: 400;
-cursor: pointer;
-transition: 0.8s;
+  color: ghostwhite;
+  font-family: Mochiy Pop P One, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.8s;
 }
 
-#submit-btn:hover{
-  background-color:#3a3fa1;
+#submit-btn:hover {
+  background-color: rgb(50, 54, 141);
 }
 
 .rate {
-font-family: 'Mochiy Pop P One', sans-serif;
-font-family: 'Mulish', sans-serif; 
-letter-spacing: 1px;
+  font-family: Mochiy Pop P One, sans-serif;
+  letter-spacing: 1px;
 }
 
-#rodape{
+#rodape {
   width: 100%;
   height: 80px;
-  background-color: #616161;
+  background-color: rgb(97, 97, 97);
   text-align: center;
   margin-top: 80px;
 }
 
-#text-foot{
- color: #f8f8ff;
- text-align: center;
- letter-spacing: 2px;
- margin-top: 25px;
- font-family: 'Mochiy Pop P One', sans-serif;
- font-family: 'Mulish', sans-serif;
- font-weight: 400;
+#text-foot {
+  color: ghostwhite;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-family: Mochiy Pop P One, Mulish, sans-serif;
+  font-weight: 400;
 }

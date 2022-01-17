@@ -57,9 +57,7 @@ submit.addEventListener('click', (event) => {
 
 /*
 Esta função (counter2) foi feita por Lucas Lima, com o auxilio do colega Guilherme azevedo.
-
 Foram feitas pesquisas em:
-
 https://developer.mozilla.org/pt-BR/docs/Web/API/Document/keyup_event
 https://developer.mozilla.org/pt-BR/docs/Web/API/Document/keypress_event
 */
@@ -72,5 +70,3 @@ function counter2() {
 
 textArea.addEventListener('keypress', counter2);
 textArea.addEventListener('keyup', counter2);
-
-/* Comentário para comitar (Lucas Lima) */
