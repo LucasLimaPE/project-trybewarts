@@ -72,3 +72,5 @@ function counter2() {
 
 textArea.addEventListener('keypress', counter2);
 textArea.addEventListener('keyup', counter2);
+
+//Comentário para comitar (Lucas Lima).
