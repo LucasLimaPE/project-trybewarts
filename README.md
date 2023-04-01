@@ -1,7 +1,7 @@
 <h1 align="center">Project Trybewarts</h1>
 
 ## :memo: Descrição
-Este projeto foi criado com o propósito de testar e exercitar as habilidades desenvolvidas no módulo de fundamentos do curso Desenvolvimento Web Full Stack na Trybe, utilizando HTML, CSS e JavaScript.
+Este projeto foi criado com o propósito de testar e exercitar as habilidades desenvolvidas no módulo de fundamentos do curso de Desenvolvimento Web Full Stack na Trybe, utilizando HTML, CSS e JavaScript.
 
 Este projeto foi desenvolvido com mais dois colaboradores, com o intuito de desenvolver habilidades de comunicação, soft skills e colaboração.
 
@@ -19,7 +19,7 @@ Todo o projeto foi desenvolvido em grupo, utilizando uma chamada no de vídeo em
 
 4. Adicionar um título com o texto `Trybewarts` dentro do `Header`.
 
-5. Adicionar um formulário no corpo de página.
+5. Adicionar um formulário no corpo da página.
 
 6. O eixo principal do formulário deve ser vertical.
 
@@ -63,7 +63,7 @@ Todo o projeto foi desenvolvido em grupo, utilizando uma chamada no de vídeo em
 ## :computer: Arquivos modificados/criados
 * script.js
 * index.html
-* styles.css
+* style.css
 
 ## :rocket: Rodando o projeto localmente
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
